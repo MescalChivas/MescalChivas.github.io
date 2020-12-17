@@ -2,18 +2,19 @@
 home: true
 heroText: Life's Moment
 tagline: 我们男孩子想要的，就一定要得到
-heroImage: /banner.jpg
-# heroImageStyle:
-#   {
-#     maxWidth: "600px",
-#     width: "100%",
-#     display: block,
-#     margin: "9rem auto 2rem",
-#     background: "#fff",
-#     borderRadius: "1rem",
-#   }
+//heroImage: /logo.jpg
+heroImageStyle:
+  {
+    maxWidth: "600px",
+    width: "100%",
+    display: block,
+    margin: "9rem auto 2rem",
+    background: "#fff",
+    borderRadius: "1rem",
+  }
+bgImage: "/banner.jpg"
 bgImageStyle: { height: "450px" }
-isShowTitleInHome: false
+isShowTitleInHome: true
 actionText: 快速开始 ->
 actionLink: /views/other/guide
 features:
