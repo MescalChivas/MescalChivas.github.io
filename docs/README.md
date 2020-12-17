@@ -11,7 +11,7 @@ features:
     details:
   - title: 不要太累 ❤️
     details:
-footer: MIT | © 2020 happylay.com All rights reserved.
+footer: MIT | © 2020 存在したくないし All rights reserved.
 ---
 
 <!-- 第三方组件 -->

@@ -27,7 +27,10 @@ module.exports = {
     searchMaxSuggestions: 10,
     // 添加导航栏
     nav: [
-      { text: "主页 🏡", link: "/" },
+      {
+        text: "个人空间 🏡",
+        link: "https://space.bilibili.com/257970060/dynamic",
+      },
       {
         text: "摸鱼小工具 🐟",
         items: [
