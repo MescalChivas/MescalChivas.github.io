@@ -78,8 +78,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "主题",
-            link: "/docs/theme-reco/",
+            text: "记录 💖",
+            link: "/docs/life/",
           },
         ],
       },
@@ -92,11 +92,17 @@ module.exports = {
             link: "https://space.bilibili.com/257970060/dynamic",
             icon: "reco-bilibili",
           },
+          {
+            text: "编辑博客",
+            link:
+              "https://github.com/MescalChivas/MescalChivas.github.io/tree/master/blog/blogs",
+            icon: "reco-github",
+          },
         ],
       },
     ],
     sidebar: {
-      "/docs/theme-reco/": ["", "theme", "plugin", "api"],
+      "/docs/life/": ["", "theme", "plugin", "api"],
     },
     type: "blog",
     blogConfig: {
