@@ -1,33 +1,23 @@
 {
-  "name": "docs",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "> ✍️ 在线编辑",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "author": "MescalChivas",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev blog",
+    "docs:build": "vuepress build blog",
     "docs:deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MescalChivas/MescalChivas.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MescalChivas/MescalChivas.github.io/issues"
-  },
-  "homepage": "https://github.com/MescalChivas/MescalChivas.github.io#readme",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.7.1",
-    "gh-pages": "^3.1.0",
-    "vuepress": "^1.7.1"
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "vuepress": "1.5.4",
+    "vuepress-plugin-cursor-effects": "^1.0.0",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-meting": "^0.1.1",
+    "vuepress-plugin-ribbon": "^1.0.2",
+    "vuepress-theme-reco": "1.5.7"
   },
   "dependencies": {
-    "zw-player": "^1.0.6"
-  }
+    "vue-class-component": "^7.2.3"
+  },
+  "description": "记录生活"
 }
