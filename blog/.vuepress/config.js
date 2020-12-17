@@ -29,6 +29,15 @@ module.exports = {
     ["@vuepress/medium-zoom"],
     ["cursor-effects"],
     ["dynamic-title"],
+    [
+      "vuepress-plugin-nuggets-style-copy",
+      {
+        copyText: "复制代码",
+        tip: {
+          content: "复制成功!",
+        },
+      },
+    ],
     // 音乐插件
     [
       "meting",
