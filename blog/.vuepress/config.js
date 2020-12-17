@@ -134,10 +134,10 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "最后一次更新",
-    author: "存在したくないし 🎄",
+    author: "存在したくないし 🎄 All rights reserved.",
     authorAvatar: "/avatar.jpg",
     record: "",
-    startYear: "2020",
+    startYear: "2017",
   },
   markdown: {
     lineNumbers: true,
