@@ -29,6 +29,7 @@ module.exports = {
     ["@vuepress/medium-zoom"],
     ["cursor-effects"],
     ["dynamic-title"],
+    ["vuepress-plugin-auto-sidebar"],
     [
       "vuepress-plugin-nuggets-style-copy",
       {
@@ -113,6 +114,7 @@ module.exports = {
     sidebar: {
       "/docs/life/": ["", "theme", "plugin", "api"],
     },
+    subSidebar: "auto",
     type: "blog",
     blogConfig: {
       category: {

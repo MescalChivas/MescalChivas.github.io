@@ -1,5 +1,5 @@
 ---
-title: 记录 💖
+title: 快乐 💖
 date: 2020-12-18
 sidebar: "auto"
 categories:
