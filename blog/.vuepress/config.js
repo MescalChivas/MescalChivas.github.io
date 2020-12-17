@@ -88,6 +88,8 @@ module.exports = {
   ],
   themeConfig: {
     noFoundPageByTencent: false,
+    mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    modePicker: true,
     nav: [
       {
         text: "主页",
