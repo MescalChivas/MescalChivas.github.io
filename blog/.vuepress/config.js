@@ -1,5 +1,5 @@
 module.exports = {
-  title: "存在したくないし",
+  title: "每天忙碌的日子，也不要忘记了好好生活 💖",
   description: "记录生活",
   dest: "./dist",
   locales: {
@@ -128,7 +128,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "最后一次更新",
-    author: "存在したくないし",
+    author: "存在したくないし 🎄",
     authorAvatar: "/avatar.jpg",
     record: "",
     startYear: "2020",
