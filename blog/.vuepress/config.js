@@ -29,6 +29,7 @@ module.exports = {
     ["@vuepress/medium-zoom"],
     ["cursor-effects"],
     ["dynamic-title"],
+    ["@vuepress-reco/vuepress-plugin-pagation"],
     [
       "@vuepress-reco/vuepress-plugin-kan-ban-niang",
       {

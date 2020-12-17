@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
     "@vuepress/plugin-medium-zoom": "^1.7.1",
     "vuepress": "1.5.4",
     "vuepress-plugin-auto-sidebar": "^1.5.0",
