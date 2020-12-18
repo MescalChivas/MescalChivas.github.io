@@ -100,6 +100,14 @@ module.exports = {
     noFoundPageByTencent: false,
     mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     modePicker: true,
+    // 完整的 GitLab 网址
+    repo: "MescalChivas/MescalChivas.github.io",
+    // 如果你的文档不在仓库的根部
+    docsDir: "blog",
+    // 可选，默认为 master
+    docsBranch: "master",
+    // 默认为 true，设置为 false 来禁用
+    editLinks: true,
     nav: [
       {
         text: "主页",
