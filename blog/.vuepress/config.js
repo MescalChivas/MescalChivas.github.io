@@ -97,6 +97,24 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    locales: {
+      "/": {
+        recoLocales: {
+          homeBlog: {
+            article: "文章", // 默认 文章
+            tag: "标签", // 默认 标签
+            category: "分类", // 默认 分类
+            friendLink: "友链", // 默认 友情链接
+          },
+          pagation: {
+            prev: "上一页",
+            next: "下一页",
+            go: "前往",
+            jump: "跳转至",
+          },
+        },
+      },
+    },
     noFoundPageByTencent: false,
     mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     modePicker: true,
@@ -108,6 +126,7 @@ module.exports = {
     docsBranch: "master",
     // 默认为 true，设置为 false 来禁用
     editLinks: true,
+    editLinkText: "编辑文档",
     nav: [
       {
         text: "主页",
