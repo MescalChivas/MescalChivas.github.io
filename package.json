@@ -5,7 +5,8 @@
   "scripts": {
     "docs:dev": "vuepress dev blog",
     "docs:build": "vuepress build blog",
-    "docs:deploy": "gh-pages -d dist"
+    "docs:deploy": "gh-pages -d dist",
+    "md5": "node md5.js"
   },
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",

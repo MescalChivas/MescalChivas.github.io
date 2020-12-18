@@ -12,3 +12,5 @@
 - ✨ npm run docs:build
 
 - ✏️ npm run docs:deploy
+
+- 🎄 npm run md5 123456
