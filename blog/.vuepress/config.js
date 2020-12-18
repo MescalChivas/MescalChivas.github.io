@@ -25,9 +25,10 @@ module.exports = {
   ],
   theme: "reco",
   plugins: [
-    ["ribbon"],
     ["@vuepress/medium-zoom"],
+    ["@vuepress-reco/extract-code"],
     ["cursor-effects"],
+    ["ribbon"],
     ["flowchart"],
     [
       "dynamic-title",

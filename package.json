@@ -9,6 +9,7 @@
     "md5": "node md5.js"
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-extract-code": "^1.0.4",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
     "@vuepress/plugin-medium-zoom": "^1.7.1",
