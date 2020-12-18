@@ -143,8 +143,8 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "记录 💖",
-            link: "/docs/life/",
+            text: "生活轨迹 💖",
+            link: "/docs/生活轨迹/",
           },
         ],
       },
@@ -167,7 +167,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/docs/life/": ["", "theme", "plugin", "api"],
+      "/docs/生活轨迹/": ["", "happy"],
     },
     subSidebar: "auto",
     type: "blog",
