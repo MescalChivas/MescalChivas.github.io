@@ -28,7 +28,17 @@ module.exports = {
     ["ribbon"],
     ["@vuepress/medium-zoom"],
     ["cursor-effects"],
-    ["dynamic-title"],
+    ["flowchart"],
+    [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.ico",
+        showText: "(/≧▽≦/)咦！又回来了！",
+        hideIcon: "/failure.ico",
+        hideText: "(●—●)喔哟，离开啦！",
+        recoverTime: 2000,
+      },
+    ],
     ["@vuepress-reco/vuepress-plugin-pagation"],
     [
       "@vuepress-reco/vuepress-plugin-kan-ban-niang",
