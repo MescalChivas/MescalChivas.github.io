@@ -12,7 +12,7 @@ heroImageStyle:
     background: "#fff",
     borderRadius: "1rem",
   }
-bgImage: "/banner.jpg"
+bgImage: "/img/3.jpg"
 bgImageStyle: { height: "450px" }
 isShowTitleInHome: true
 actionText: 快速开始 ->
