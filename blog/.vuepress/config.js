@@ -25,7 +25,17 @@ module.exports = {
   ],
   theme: "reco",
   plugins: [
-    ["@vuepress/medium-zoom"],
+    [
+      "@vuepress/medium-zoom",
+      {
+        selector: ".medium-zoom", // 指定含有medium-zoom的类缩放，类名可自定义，markdown中的img的class类保持一致就可以，没有指明的图片类将不支持缩放
+        delay: 1000, // 延迟1秒
+        options: {
+          margin: 24,
+          scrollOffset: 0,
+        },
+      },
+    ],
     ["@vuepress-reco/extract-code"],
     ["cursor-effects"],
     ["ribbon"],
