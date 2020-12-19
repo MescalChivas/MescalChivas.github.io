@@ -12,8 +12,8 @@ heroImageStyle:
     background: "#fff",
     borderRadius: "1rem",
   }
-bgImage: "/img/3.jpg"
-bgImageStyle: { height: "450px" }
+bgImage: "/img/12.jpg" # 背景图
+bgImageStyle: { height: "550px" }
 isShowTitleInHome: true
 actionText: 快速开始 ->
 actionLink: /views/other/guide

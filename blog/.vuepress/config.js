@@ -128,7 +128,7 @@ module.exports = {
     },
     noFoundPageByTencent: false,
     mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
-    modePicker: true,
+    modePicker: false,
     // 完整的 GitLab 网址
     repo: "MescalChivas/MescalChivas.github.io",
     // 如果你的文档不在仓库的根部
