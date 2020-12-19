@@ -154,8 +154,19 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "生活轨迹 💖",
-            link: "/docs/生活轨迹/",
+            text: "轨迹",
+            icon: "reco-lock",
+            link: "/docs/轨迹/",
+          },
+          {
+            text: "前端",
+            icon: "reco-lock",
+            link: "/docs/前端/",
+          },
+          {
+            text: "后端",
+            icon: "reco-lock",
+            link: "/docs/后端/",
           },
         ],
       },
@@ -177,9 +188,6 @@ module.exports = {
         ],
       },
     ],
-    sidebar: {
-      "/docs/生活轨迹/": ["", "happy"],
-    },
     subSidebar: "auto",
     type: "blog",
     blogConfig: {
